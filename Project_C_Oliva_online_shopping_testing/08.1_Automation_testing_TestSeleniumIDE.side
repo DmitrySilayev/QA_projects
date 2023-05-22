@@ -1,0 +1,251 @@
+{
+  "id": "ddc079e6-b698-4102-97a8-f6034fd862b1",
+  "version": "2.0",
+  "name": "Oliva_in_ua",
+  "url": "https://oliva.in.ua",
+  "tests": [{
+    "id": "7e46ec00-7cf6-4bcb-8958-04216c68b24d",
+    "name": "Put item to the cart and cart updating",
+    "commands": [{
+      "id": "4d6c25f0-6ec6-4f32-80dd-0916d1f04b48",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46178590-70de-421b-a993-1f50475e04f1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1273x716",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39c34a22-d7dc-49c7-b8a0-4b14e18d258f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=- Військова форма",
+      "targets": [
+        ["linkText=- Військова форма", "linkText"],
+        ["css=.web24-woo-categories li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'- Військова форма')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://oliva.in.ua/product-category/military-uniform/')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'- Військова форма')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb112b10-2ad4-4cd8-b941-a86de9436577",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-9118 .attachment-woocommerce_thumbnail",
+      "targets": [
+        ["css=.post-9118 .attachment-woocommerce_thumbnail", "css:finder"],
+        ["xpath=//img[contains(@src,'https://oliva.in.ua/wp-content/uploads/2021/01/1839c1ab-71ea-4f0e-bff2-e2215160ba1f-1-400x533.jpeg')]", "xpath:img"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea8c19c7-8b37-4b78-bd20-a81b6905cf92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select_option_label:nth-child(1) > span",
+      "targets": [
+        ["css=.select_option_label:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='product-9118']/div/div[3]/div/form/table/tbody/tr/td[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//td[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'44')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d79873d9-4320-4568-904f-0c072b444704",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus",
+      "targets": [
+        ["css=.plus", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='product-9118']/div/div[3]/div/form/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d42289ff-557f-45d7-b810-85300b607fab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus",
+      "targets": [
+        ["css=.plus", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='product-9118']/div/div[3]/div/form/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf3c8c84-697e-4484-be46-f3733331a580",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single_add_to_cart_button:nth-child(4)",
+      "targets": [
+        ["css=.single_add_to_cart_button:nth-child(4)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='product-9118']/div/div[3]/div/form/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb9eaee7-dd47-4db8-b6bc-64152ce61179",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "055237b4-5c34-442e-96f0-1c265d06c45b",
+    "name": "Redirect to Instagram",
+    "commands": [{
+      "id": "30a51274-5fa8-41b0-8959-4904a5c96770",
+      "comment": "",
+      "command": "open",
+      "target": "/contacts/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b712574-64ce-490a-ac22-d50c2f4e4422",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1274x716",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a172a456-0333-430f-b981-37940b5975d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-instagram",
+      "targets": [
+        ["css=.fa-instagram", "css:finder"],
+        ["xpath=//li[2]/a/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8640",
+      "windowTimeout": 2000
+    }, {
+      "id": "72dd27aa-8cd5-4534-acd1-ae9b263327b4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8640}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e5ae8ce1-e0c8-4f1a-8fc1-1918b95478d5",
+    "name": "Put item to the cart 2",
+    "commands": [{
+      "id": "fc0d7bce-bf87-4ff7-9269-9e640090c68a",
+      "comment": "",
+      "command": "open",
+      "target": "/shop/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67513342-c594-4395-899c-8aa10af8c73c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1274x716",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7457007f-269b-4971-802c-bddebcb4db43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-9118 .attachment-woocommerce_thumbnail",
+      "targets": [
+        ["css=.post-9118 .attachment-woocommerce_thumbnail", "css:finder"],
+        ["xpath=//img[contains(@src,'https://oliva.in.ua/wp-content/uploads/2021/01/1839c1ab-71ea-4f0e-bff2-e2215160ba1f-1-400x533.jpeg')]", "xpath:img"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f79b6f9a-73b7-4bac-ba89-e935ea226b07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select_option_label:nth-child(1) > span",
+      "targets": [
+        ["css=.select_option_label:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='product-9118']/div/div[3]/div/form/table/tbody/tr/td[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//td[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'44')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "595ee0c0-b889-4a9d-b8ac-f03a4b08126b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus",
+      "targets": [
+        ["css=.plus", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='product-9118']/div/div[3]/div/form/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89ec8509-a364-4b9b-ab68-5e1c7921c20a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus",
+      "targets": [
+        ["css=.plus", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='product-9118']/div/div[3]/div/form/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d93a029-33e1-40c4-8128-6c35eaecee04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single_add_to_cart_button:nth-child(4)",
+      "targets": [
+        ["css=.single_add_to_cart_button:nth-child(4)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='product-9118']/div/div[3]/div/form/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "831413d5-fd2d-401d-9f43-45f74984f6f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=×",
+      "targets": [
+        ["linkText=×", "linkText"],
+        ["css=.remove", "css:finder"],
+        ["xpath=//a[contains(text(),'×')]", "xpath:link"],
+        ["xpath=//article[@id='post-9']/div[2]/div/div/div/form/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://oliva.in.ua/cart/?remove_item=916a49996c243e342e601f883912ee38&_wpnonce=075c63ba1a')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eba1f3d0-9173-48c1-8461-8ed74f8afd6b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7e46ec00-7cf6-4bcb-8958-04216c68b24d"]
+  }],
+  "urls": ["https://oliva.in.ua/"],
+  "plugins": []
+}
